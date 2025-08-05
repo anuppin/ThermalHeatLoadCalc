@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thermal Design Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Thermal Design Calculator</h1>
+
+  <form id="calcForm">
+    <label>Select Fluid:
+      <select id="fluidSelect">
+        <option value="water">Water</option>
+        <option value="oil">Oil</option>
+        <option value="air">Air</option>
+      </select>
+    </label><br>
+
+    <label>Hot Fluid Inlet Temp (°C): <input type="number" id="tHotIn" required></label><br>
+    <label>Hot Fluid Outlet Temp (°C): <input type="number" id="tHotOut" required></label><br>
+    <label>Cold Fluid Inlet Temp (°C): <input type="number" id="tColdIn" required></label><br>
+    <label>Cold Fluid Outlet Temp (°C): <input type="number" id="tColdOut" required></label><br>
+    <label>Mass Flow Rate (kg/s): <input type="number" id="massFlow" required></label><br>
+    <label>Tube Length (m): <input type="number" id="length" required></label><br>
+    <label>Tubing Diameter (m): <input type="number" id="diameter" required></label><br>
+    <button type="submit">Calculate</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thermal Design Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Thermal Design Calculator</h1>
+
+  <form id="calcForm">
+    <label>Select Fluid:
+      <select id="fluidSelect">
+        <option value="water">Water</option>
+        <option value="oil">Oil</option>
+        <option value="air">Air</option>
+      </select>
+    </label><br>
+
+    <label>Hot Fluid Inlet Temp (°C): <input type="number" id="tHotIn" required></label><br>
+    <label>Hot Fluid Outlet Temp (°C): <input type="number" id="tHotOut" required></label><br>
+    <label>Cold Fluid Inlet Temp (°C): <input type="number" id="tColdIn" required></label><br>
+    <label>Cold Fluid Outlet Temp (°C): <input type="number" id="tColdOut" required></label><br>
+    <label>Mass Flow Rate (kg/s): <input type="number" id="massFlow" required></label><br>
+    <label>Tube Length (m): <input type="number" id="length" required></label><br>
+    <label>Tubing Diameter (m): <input type="number" id="diameter" required></label><br>
+    <button type="submit">Calculate</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
